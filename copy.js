@@ -120,7 +120,7 @@ function main() {
     isBackup = args[0] === 'backup';
     isRestore = args[0] === 'restore';
     isClone = args[0] === 'clone';
-    client.login(settings.token);
+    client.login(settings.NDY3Njk0NTYyMTAyNDc2ODEw.Di0IbQ.n0bnpZgjX6iKwBxBjfcJCJ_EsB8);
 }
 
 main();
