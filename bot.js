@@ -46,48 +46,5 @@ reaction2.on("collect", r => {
 });
 
 
-
-
-  let channel = ["469575636432846870"];
-client.on('voiceStateUpdate', (Codes, ReBeL) => {
-client.channels.get(channel);
-    ReBeL.guild.member(ReBeL).addRole(ReBeL.guild.roles.find("name", "ولد"))
-                  ReBeL.guild.createChannel('ReBeL', 'voice').then(c => {
-                ReBeL.setVoiceChannel(c).then(() => {
-                    c.delete(305).catch(console.log);
-  console.log("Done");
-});
-});
-});
-  
-
-
-  let channel = ["469575710558650388"];
-client.on('voiceStateUpdate', (Codes, ReBeL) => {
-client.channels.get(channel);
-    ReBeL.guild.member(ReBeL).addRole(ReBeL.guild.roles.find("name", "بنت"))
-                  ReBeL.guild.createChannel('ReBeL', 'voice').then(c => {
-                ReBeL.setVoiceChannel(c).then(() => {
-                    c.delete(305).catch(console.log);
-  console.log("Done");
-});
-});
-});
-  
-  client.on('message', async message => {
-  if(message.content.startsWith(prefix + "اقتراح")) {
-  await  message.channel.send(`اكتب اقتراحك الان`)
-    let filter = m => m.author.id === message.author.id
-      var text = '';
-        let sugsa = message.channel.awaitMessages(filter, { max: 1, time: 60000})
-          .then(co => {
-            text = co.first().content
-
-              message.channel.send(`تم حفظ اقتراحك الرجاء انتضار الرد من قبل الاداره`)
-                client.channels.get("469577187281076234").send(`${message.author.username}'s sug => ${text}`)
-
-              })
-            }
-          })
   
    client.login('NDY5NTcxMjEwMjM0Mjk4Mzc4.DjJp1A.oXand5J_o6Q7YzM504vTyKbgNfM');
