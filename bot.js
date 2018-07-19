@@ -47,4 +47,4 @@ reaction2.on("collect", r => {
 
 
   
-   client.login('NDY5NTcxMjEwMjM0Mjk4Mzc4.DjJp1A.oXand5J_o6Q7YzM504vTyKbgNfM');
+   client.login('NDY5NTg0Njk5NjkwNTgyMDI3.DjJ2Wg.5c4Sc6TDI7D11YzoDmf3lSKLWc8');
