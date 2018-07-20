@@ -6,6 +6,7 @@ client.on('ready', () => {
 });
 
 
+var prefix = "3";
 
 client.on('message', function(message) {
     if(message.content.startsWith(prefix + "ابلاغ")) {
@@ -47,4 +48,4 @@ reaction2.on("collect", r => {
 
 
   
-   client.login('NDY5NjU3NjMzODc2NjA2OTc2.DjK9RQ.kPgwiuXUb4_YlgTYxJ1FM9T31Yo');
+   client.login('NDY5NjU5NzU4NDAwMzcyNzM2.DjK9IQ.4AvTn_4OIIIQaKeD6RCF_5FMbsM');
